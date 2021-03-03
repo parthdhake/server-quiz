@@ -24,6 +24,10 @@ app.get("/", (req, res, next) => {
         })
       });
 });
+
+app.use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", "*")
+}) 
 // Insert here other API endpoints
 
 // Default response for any other request

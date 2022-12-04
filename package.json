@@ -4,7 +4,7 @@
   "description": "server for quiz",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
